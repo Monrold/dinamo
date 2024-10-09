@@ -1,6 +1,51 @@
 ---
-
+import logotipo from "../images/dinamo-logotipo.webp";
+import fondo from "../images/portada-dinamo.webp";
+import feniz1 from "../images/trabajo/fenix-1.png";
+import feniz2 from "../images/trabajo/fenix-2.png";
+import u5 from "../images/trabajo/u5.png";
+import superrocky from "../images/cuatrimoto/super-rocky-cuatrimoto.png";
+import xtremerlx from "../images/cuatrimoto/xtreme-rlx-cuatrimoto.png";
+import xtremerocky from "../images/cuatrimoto/xtreme-rocky-cuatrimoto.png";
+import speedfire from "../images/deportiva/speed-fire-dinamo.png";
+import cmd from "../images/deportiva/cmd-comando-400.png";
+import goliat from "../images/deportiva/goliat-dinamo.png";
+import monkey from "../images/deportiva/monkey-dinamo.png";
+import r4 from "../images/deportiva/r4-dinamo.png";
+import speedfire2 from "../images/deportiva/speed-fire-spdf-dinamo.png";
+import r1 from "../images/deportiva/sport-r1-dinamo.png";
+import r2 from "../images/deportiva/sport-r2-dinamo.png";
+import dnm from "../images/deportiva/dnm-4-400.png";
+import supersport from "../images/deportiva/super-sport-400.png";
+import motocarro200 from "../images/motocarro/motocarro-heavy-cab-r-m-200png.png";
+import motocarro300 from "../images/motocarro/motocarro-heavy-cab-300m.png";
+import motocarrob from "../images/motocarro/motocarro-heavy-b-150.png";
+import motocarrosuper from "../images/motocarro/motocarro-super-heavy-ccab-250png.png";
+import kfracer from "../images/clasica/kf-racer-250-dinamo.png";
+import custom150 from "../images/clasica/custom-150-dinamo.png";
+import customblack from "../images/clasica/custom-black-dinamo.png";
+import custom175 from "../images/clasica/rayo-175-dinamo.png";
+import rayoelite from "../images/clasica/rayo-elite-dinamo.png";
+import renegada from "../images/clasica/renegada.png";
+import adventureelite from "../images/motoneta/adventure-motoneta-elite-dinamo.png";
+import alienr from "../images/motoneta/alien-r-dinamo.png";
+import metro from "../images/motoneta/metro-dinamo-motoneta.png";
+import molotov from "../images/racers/racer-molotov-dinamo.png";
+import molotovc4 from "../images/racers/racer-molotov-c4-dinamo.png";
+import scorpion200 from "../images/doble/scorpion-dinamo-dp.png";
+import scorpion250 from "../images/doble/scorpion-dinamo-250-dp.png";
+import couscontryadv from "../images/doble/croos-country-dinamo-dp.png";
+import couscountry from "../images/doble/croos-country-dinamo-dp-2.png";
 ---
+
+<style>
+	html {
+    scroll-behavior: smooth;
+}
+	#filters {
+		width: calc(140px * 8);
+	}
+</style>
 
 <html lang="en">
 	<head>
@@ -10,7 +55,3587 @@
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro</title>
 	</head>
-	<body>
-		<h1>Astro</h1>
+	<body class="bg-zinc-800 lg:">
+		<section class="bg-black mx-auto flex justify-center py-8 px-4">
+			<div class="max-w-screen-2xl"></div>
+			<img class="w-48" src={logotipo.src} alt="" />
+		</section>
+		<section>
+			<img class="object-cover h-full w-full" src={fondo.src} alt="" />
+		</section>
+		<section class="bg-black mx-auto">
+			<h1 class="text-gray-300 text-center py-4 px-4">
+				¡Súbete a la aventura con DINAMO! Descubre la emoción de
+				conducir una moto nueva. ¡Cotiza ahora y aprovecha nuestras
+				increíbles ofertas! ⚡ ¡Te esperamos!.
+			</h1>
+		</section>
+		<section>
+			<div class="max-w-screen-lg mx-auto">
+				<div class="overflow-x-scroll snap-x snap-mandatory py-4">
+					<ul class="flex space-x-4 mx-2" id="filters">
+						<li
+							class="border rounded-full border-gray-300 px-6 py-2 hover:border-gray-500 hover:text-gray-500 text-gray-400"
+						>
+							<a href="#trabajo">
+								<p>Trabajo</p>
+							</a>
+						</li>
+						<li
+							class="border rounded-full border-gray-300 px-6 py-2 hover:border-gray-500 hover:text-gray-500 text-gray-400"
+						>
+							<a href="#cuatrimotos">
+								<p>Cuatrimotos</p>
+							</a>
+						</li>
+						<li
+							class="border rounded-full border-gray-300 px-6 py-2 hover:border-gray-500 hover:text-gray-500 text-gray-400"
+						>
+							<a href="#deportivas">
+								<p>Deportivas</p>
+							</a>
+						</li>
+						<li
+							class="border rounded-full border-gray-300 px-6 py-2 hover:border-gray-500 hover:text-gray-500 text-gray-400"
+						>
+							<a href="#motocarros">
+								<p>Motocarros</p>
+							</a>
+						</li>
+						<li
+							class="border rounded-full border-gray-300 px-6 py-2 hover:border-gray-500 hover:text-gray-500 text-gray-400"
+						>
+							<a href="#clasicas">
+								<p>Clásicas</p>
+							</a>
+						</li>
+						<li
+							class="border rounded-full border-gray-300 px-6 py-2 hover:border-gray-500 hover:text-gray-500 text-gray-400"
+						>
+							<a href="#motonetas">
+								<p>Motonetas</p>
+							</a>
+						</li>
+						<li
+							class="border rounded-full border-gray-300 px-6 py-2 hover:border-gray-500 hover:text-gray-500 text-gray-400"
+						>
+							<a href="#racers">
+								<p>Racers</p>
+							</a>
+						</li>
+						<li
+							class="border rounded-full border-gray-300 px-6 py-2 hover:border-gray-500 hover:text-gray-500 text-gray-400"
+						>
+							<a href="#dobleproposito">
+								<p>Doble propósito</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="max-w-screen-xl mx-auto">
+				<!--trabajo -->
+				<div
+					id="trabajo"
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								Fenix
+							</h3>
+							<p>Moto de trabajo</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2023</p>
+							<p class="font-thin">Largo total: 2010 mm</p>
+							<p class="font-thin">Ancho total: 730 mm</p>
+							<p class="font-thin">Altura total: 995 mm</p>
+							<p class="font-thin">
+								Distancia entre ejes: 1260 mm
+							</p>
+							<p class="font-thin">Carga máxima: 160 kg</p>
+							<p class="font-thin">Velocidad máxima: 80 km/h</p>
+							<p class="font-thin">
+								Rendimiento de combustible: 28 km/lt.
+							</p>
+							<p class="font-thin">
+								Tipo de motor: Monocilíndrico, 4 tiempos,
+								enfriado por aire
+							</p>
+							<p class="font-thin">
+								Transmisión: Estándar 5 velocidades
+							</p>
+							<p class="font-thin">Potencia máxima: 10.5 HP</p>
+							<p class="font-thin">Cilindrada real: 150 cc</p>
+							<p class="font-thin">Arranque: Eléctrico y pedal</p>
+							<p class="font-thin">Ignición: CDI</p>
+							<p class="font-thin">
+								Suspensión delantera: Horquilla telescópica
+								hidráulica
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: Doble amortiguador
+								hidráulico
+							</p>
+							<p class="font-thin">Freno delantero: Disco</p>
+							<p class="font-thin">Freno trasero: Tambor</p>
+							<p class="font-thin">Llanta delantera: 275/18</p>
+							<p class="font-thin">Llanta trasera: 300/18</p>
+							<p class="font-thin">
+								Capacidad de combustible: 10 litros
+							</p>
+							<p class="font-thin pb-3">
+								Embrague: Multidisco bañado en aceite
+							</p>
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										$27,195 <span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={feniz1.src}
+								alt=""
+							/>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={feniz2.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								U5
+							</h3>
+							<p>Moto de trabajo</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2024</p>
+							<p class="font-thin">Largo total: 197 CM</p>
+							<p class="font-thin">Ancho total: 73 CM</p>
+							<p class="font-thin">Altura total: 111 CM</p>
+							<p class="font-thin">Distancia Ejes: 130 CM</p>
+							<p class="font-thin">Carga Máxima: 150 KG</p>
+							<p class="font-thin">Velocidad Máxima: 80 KM/H</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: 40 KM/L
+							</p>
+							<p class="font-thin">
+								Tipo de motor: MONOCILINDRO DE 4 TIEMPOS
+								ENFRIADO POR AIRE
+							</p>
+							<p class="font-thin">
+								Transmisión: ESTÁNDAR DE 5 VELOCIDADES
+							</p>
+							<p class="font-thin">Potencia máxima: 10.5 H.P.</p>
+							<p class="font-thin">Cilindraje real: 149.5 C.C.</p>
+							<p class="font-thin">Arranque: ELÉCTRICO Y PEDAL</p>
+							<p class="font-thin">Ignición: C.D.I</p>
+							<p class="font-thin">
+								Suspensión delantera: HORQUILLA TELESCÓPICA
+								HIDRÁULICA
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: DOBLE AMORTIGUADOR
+								HIDRÁULICO
+							</p>
+							<p class="font-thin">Freno delantero: DISCO</p>
+							<p class="font-thin">Freno Trasero: TAMBOR</p>
+							<p class="font-thin">Llanta delantera: 275/18</p>
+							<p class="font-thin">Llanta trasera: 325/18</p>
+							<p class="font-thin">
+								Capacidad de combustible: 16.5 LITROS
+							</p>
+							<p class="font-thin pb-3">
+								Embrague: MULTIDISCOS BAÑADO EN ACEITE
+							</p>
+
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										$27,195 <span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={u5.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<!--cuatrimotos -->
+				<div
+					id="cuatrimotos"
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								Super rocky
+							</h3>
+							<p>Cuatrimoto</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2024</p>
+							<p class="font-thin">Largo total: 180 CM</p>
+							<p class="font-thin">Ancho total: 100 CM</p>
+							<p class="font-thin">Altura total: 110 CM</p>
+							<p class="font-thin">Distancia Ejes: 114 CM</p>
+							<p class="font-thin">Carga Máxima: 140 KG</p>
+							<p class="font-thin">Velocidad Máxima: 45 KM/H</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: 30 KM/L
+							</p>
+							<p class="font-thin">
+								Tipo de motor: MONOCILINDRO DE 4 TIEMPOS
+								ENFRIADO POR AIRE
+							</p>
+							<p class="font-thin">Transmisión: AUTOMÁTICA</p>
+							<p class="font-thin">Potencia máxima: 8.2 H.P.</p>
+							<p class="font-thin">Cilindraje real: 150 C.C.</p>
+							<p class="font-thin">Arranque: ELÉCTRICO</p>
+							<p class="font-thin">Ignición: C.D.I</p>
+							<p class="font-thin">
+								Suspensión delantera: DOBLE AMORTIGUADOR
+								HIDRÁULICO Y HORQUILLA OSCILANTE EN TIPO
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: AMORTIGUADOR CENTRAL
+								HIDRÁULICO
+							</p>
+							<p class="font-thin">Freno delantero: TAMBOR</p>
+							<p class="font-thin">Freno Trasero: DISCO</p>
+							<p class="font-thin">Llanta delantera: 21X7-10</p>
+							<p class="font-thin">Llanta trasera: 20X10-10</p>
+							<p class="font-thin">
+								Capacidad de combustible: 4 LITROS
+							</p>
+							<p class="font-thin">Embrague: CENTRÍFUGO</p>
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										$45,045 <span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={superrocky.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								Xtreme RLX
+							</h3>
+							<p>Cuatrimoto</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2024</p>
+							<p class="font-thin">Largo total: 1810 MM</p>
+							<p class="font-thin">Ancho total: 1060 MM</p>
+							<p class="font-thin">Altura total: 1360 MM</p>
+							<p class="font-thin">Distancia Ejes: 1120 MM</p>
+							<p class="font-thin">Carga Máxima: 140 KG</p>
+							<p class="font-thin">Velocidad Máxima: 55 KM./H</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: 20 K/LTS.
+							</p>
+							<p class="font-thin">
+								Tipo de motor: CUATRO TIEMPOS ENFRIADO POR AIRE
+							</p>
+							<p class="font-thin">
+								Transmisión: AUTOMATICA CON REVERSA
+							</p>
+							<p class="font-thin">Potencia máxima: 10.5 HP</p>
+							<p class="font-thin">Cilindraje real: 200 C.C.</p>
+							<p class="font-thin">Arranque: ELÉCTRICO</p>
+							<p class="font-thin">Ignición: C.D.I.</p>
+							<p class="font-thin">
+								Suspensión delantera: DOBLE AMORTIGUADOR
+								HIDRÁULICO
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: UN AMORTIGUADOR HIDRÁULICO
+							</p>
+							<p class="font-thin">Freno delantero: DISCO</p>
+							<p class="font-thin">Freno Trasero: DISCO</p>
+							<p class="font-thin">Llanta delantera: 21X7/10</p>
+							<p class="font-thin">Llanta trasera: 20X10/10</p>
+							<p class="font-thin">
+								Capacidad de combustible: 5 LTS.
+							</p>
+							<p class="font-thin pb-3">Embrague: CENTRÍFUGO</p>
+
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										59,745 <span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={xtremerlx.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								Xtreme rocky
+							</h3>
+							<p>Cuatrimoto</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2024</p>
+							<p class="font-thin">Largo total: 174 CM</p>
+							<p class="font-thin">Ancho total: 112 CM</p>
+							<p class="font-thin">Altura total: 110 CM</p>
+							<p class="font-thin">Distancia Ejes: 116 CM</p>
+							<p class="font-thin">Carga Máxima: 150 KG</p>
+							<p class="font-thin">Velocidad Máxima: 65 K/H</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: VARIABLE POR TIPO DE
+								TERRENO
+							</p>
+							<p class="font-thin">
+								Tipo de motor: MONOCILINDRICO DE 4 TIEMPOS
+								ENFRIADO POR AIRE
+							</p>
+							<p class="font-thin">
+								Transmisión: AUTOMÁTICA CON REVERSA
+							</p>
+							<p class="font-thin">Potencia máxima: 10.5 H.P.</p>
+							<p class="font-thin">Cilindraje real: 200 C.C.</p>
+							<p class="font-thin">Arranque: ELÉCTRICO</p>
+							<p class="font-thin">Ignición: C.D.I</p>
+							<p class="font-thin">
+								Suspensión delantera: AMORTIGUADORES HIDRÁULICOS
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: AMORTIGUADORES HIDRÁULICOS
+							</p>
+							<p class="font-thin">Freno delantero: DISCO</p>
+							<p class="font-thin">Freno Trasero: DISCO</p>
+							<p class="font-thin">Llanta delantera: 21X7-10</p>
+							<p class="font-thin">Llanta trasera: 20X10-10</p>
+							<p class="font-thin">
+								Capacidad de combustible: 4 LITROS
+							</p>
+							<p class="font-thin pb-3">Embrague: CENTRÍFUGO</p>
+
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										52,395 <span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={xtremerocky.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<!--deportivas -->
+				<div
+					id="deportivas"
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								Speed Fire
+							</h3>
+							<p>Deportiva</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2024</p>
+							<p class="font-thin">Largo total: 209 CM</p>
+							<p class="font-thin">Ancho total: 81.5 CM</p>
+							<p class="font-thin">Altura total: 108.5 CM</p>
+							<p class="font-thin">Distancia Ejes: 69 CM</p>
+							<p class="font-thin">Carga Máxima: 150 KG</p>
+							<p class="font-thin">Velocidad Máxima: 100 KM/H</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: 25 KM./LT.
+							</p>
+							<p class="font-thin">
+								Tipo de motor: MONOCILINDRICO, 4 TIEMPOS,
+								ENFRIADO POR AIRE
+							</p>
+							<p class="font-thin">
+								Transmisión: ESTÁNDAR 6 VELOCIDADES
+							</p>
+							<p class="font-thin">Potencia máxima: 13 HP</p>
+							<p class="font-thin">Cilindraje real: 200 C.C.</p>
+							<p class="font-thin">Arranque: ELÉCTRICO</p>
+							<p class="font-thin">Ignición: CDI</p>
+							<p class="font-thin">
+								Suspensión delantera: HORQUILLA TELESCOPICA
+								HIDRAULICA
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: AMORTIGUADOR HIDRÁULICO
+							</p>
+							<p class="font-thin">Freno delantero: DISCO</p>
+							<p class="font-thin">Freno Trasero: DISCO</p>
+							<p class="font-thin">Llanta delantera: 110/80-17</p>
+							<p class="font-thin">Llanta trasera: 140/60-17</p>
+							<p class="font-thin">
+								Capacidad de combustible: 15 LITROS
+							</p>
+							<p class="font-thin pb-3">
+								Embrague: MULTIDISCO BAÑADO EN ACEITE
+							</p>
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										42, 945 <span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={speedfire.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								dnm-4-400
+							</h3>
+							<p>Deportiva</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2024</p>
+							<p class="font-thin">Largo total: 2080 MM</p>
+							<p class="font-thin">Ancho total: 860 MM</p>
+							<p class="font-thin">Altura total: 1310 MM</p>
+							<p class="font-thin">Distancia Ejes: 1043 MM</p>
+							<p class="font-thin">Carga Máxima: 150 KG</p>
+							<p class="font-thin">Velocidad Máxima: 135 KM./H</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: 22 K/LTS.
+							</p>
+							<p class="font-thin">
+								Tipo de motor: CUATRO TIEMPOS BICILINDRO
+								ENFRIADO POR ANTICONGELANTE 4 VALVULAS
+							</p>
+							<p class="font-thin">
+								Transmisión: STD 6 VELOCIDADES
+							</p>
+							<p class="font-thin">Potencia máxima: 32 HP</p>
+							<p class="font-thin">Cilindraje real: 400CC</p>
+							<p class="font-thin">Arranque: ELÉCTRICO</p>
+							<p class="font-thin">Ignición: CDI</p>
+							<p class="font-thin">
+								Suspensión delantera: TELESCÓPICA INVERTIDA
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: MONOSHOCK
+							</p>
+							<p class="font-thin">
+								Freno delantero: DOBLE DISCO VENTILADO
+							</p>
+							<p class="font-thin">
+								Freno Trasero: DISCO VENTILADO
+							</p>
+							<p class="font-thin">
+								Llanta delantera: 120/70-17 30
+							</p>
+							<p class="font-thin">
+								Llanta trasera: 150/70-17 40
+							</p>
+							<p class="font-thin">
+								Capacidad de combustible: 17 LTS.
+							</p>
+							<p class="font-thin pb-3">
+								Embrague: MULTIDISCO BAÑADO EN ACEITE
+							</p>
+
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										68, 145 <span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={dnm.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								CMD Comando 400
+							</h3>
+							<p>Deportiva</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2024</p>
+							<p class="font-thin">Largo total: 2250 MM</p>
+							<p class="font-thin">Ancho total: 930 MM</p>
+							<p class="font-thin">Altura total: 1170 MM</p>
+							<p class="font-thin">Distancia Ejes: 1600 MM</p>
+							<p class="font-thin">Carga Máxima: 150 KG</p>
+							<p class="font-thin">Velocidad Máxima: 135 KM/H</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: 24 KM/L
+							</p>
+							<p class="font-thin">
+								Tipo de motor: BICILINDRO, 4 TIEMPOS ENFRIADA
+								POR LIQUIDO REFRIGERANTE
+							</p>
+							<p class="font-thin">
+								Transmisión: 6 VELOCIDADES CONSTANTES
+							</p>
+							<p class="font-thin">Potencia máxima: 32 HP</p>
+							<p class="font-thin">Cilindraje real: 400 CC</p>
+							<p class="font-thin">Arranque: ELÉCTRICO</p>
+							<p class="font-thin">Ignición: ECU</p>
+							<p class="font-thin">
+								Suspensión delantera: TELESCÓPICA INVERTIDA
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: MONOSHOCK
+							</p>
+							<p class="font-thin">
+								Freno delantero: ABS DOBLE CANAL
+							</p>
+							<p class="font-thin">
+								Freno Trasero: ABS DOBLE CANAL
+							</p>
+							<p class="font-thin">Llanta delantera: 120/70-17</p>
+							<p class="font-thin">Llanta trasera: 180/55-17</p>
+							<p class="font-thin">
+								Capacidad de combustible: 17 L
+							</p>
+							<p class="font-thin pb-3">
+								Embrague: MULTIDISCO BAÑADO EN ACEITE
+							</p>
+							<p class="font-thin pb-3">
+								Embrague: MULTIDISCO BAÑADO EN ACEITE
+							</p>
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										83,895 <span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={cmd.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								Goliat
+							</h3>
+							<p>Deportiva</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2024</p>
+							<p class="font-thin">Largo total: 2080 MM</p>
+							<p class="font-thin">Ancho total: 1020 MM</p>
+							<p class="font-thin">Altura total: 1020 MM</p>
+							<p class="font-thin">Distancia Ejes: 1480 MM</p>
+							<p class="font-thin">Carga Máxima: 150 KG</p>
+							<p class="font-thin">Velocidad Máxima: 80 KM/H</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: 20 KM/L
+							</p>
+							<p class="font-thin">
+								Tipo de motor: 1 SOLO CILINDRO, 4 TIEMPOS
+								ENFRIADO POR AIRE
+							</p>
+							<p class="font-thin">
+								Transmisión: AUTOMÁTICA CON REVERSA
+							</p>
+							<p class="font-thin">Potencia máxima: 10.5 HP</p>
+							<p class="font-thin">Cilindraje real: 200 CC.</p>
+							<p class="font-thin">Arranque: ELÉCTRICO</p>
+							<p class="font-thin">Ignición: C.D.I</p>
+							<p class="font-thin">
+								Suspensión delantera: AMORTIGUADORES HIDRÁULICOS
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: AMORTIGUADORES HIDRÁULICOS
+							</p>
+							<p class="font-thin">Freno delantero: DISCO</p>
+							<p class="font-thin">Freno Trasero: DISCO</p>
+							<p class="font-thin">Llanta delantera: 140-60-14</p>
+							<p class="font-thin">Llanta trasera: 205/40-14</p>
+							<p class="font-thin">
+								Capacidad de combustible: 6 LTS
+							</p>
+							<p class="font-thin pb-3">Embrague: CENTRÍFUGO</p>
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										70, 245 <span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={goliat.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								Monkey
+							</h3>
+							<p>Deportiva</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2024</p>
+							<p class="font-thin">Largo total: 1800 MM</p>
+							<p class="font-thin">Ancho total: 750 MM</p>
+							<p class="font-thin">Altura total: 1250 MM</p>
+							<p class="font-thin">Distancia Ejes: 1250 MM</p>
+							<p class="font-thin">Carga Máxima: 150 KG</p>
+							<p class="font-thin">Velocidad Máxima: 85 KM/H</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: 35 KM/L
+							</p>
+							<p class="font-thin">
+								Tipo de motor: 1 CILINDRO, CUATRO TIEMPOS,
+								ENFRIADO POR AIRE
+							</p>
+							<p class="font-thin">
+								Transmisión: SEMI CIRCULAR 4 VEL.
+							</p>
+							<p class="font-thin">Potencia máxima: 9 HP</p>
+							<p class="font-thin">Cilindraje real: 125 C.C.</p>
+							<p class="font-thin">Arranque: ELÉCTRICO Y PEDAL</p>
+							<p class="font-thin">Ignición: CDI</p>
+							<p class="font-thin">
+								Suspensión delantera: INVERTIDA
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: UN SOLO AMORTIGUADOR
+							</p>
+							<p class="font-thin">Freno delantero: DISCO</p>
+							<p class="font-thin">Freno Trasero: DISCO</p>
+							<p class="font-thin">Llanta delantera: 120/70-12</p>
+							<p class="font-thin">Llanta trasera: 130/70-12</p>
+							<p class="font-thin">
+								Capacidad de combustible: 6 L
+							</p>
+							<p class="font-thin pb-3">Embrague: MANUAL</p>
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										33, 495 <span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={monkey.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								R4
+							</h3>
+							<p>Deportiva</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2024</p>
+							<p class="font-thin">Largo total: 2170 MM</p>
+							<p class="font-thin">Ancho total: 730 MM</p>
+							<p class="font-thin">Altura total: 1200 MM</p>
+							<p class="font-thin">Distancia Ejes: 1450 MM</p>
+							<p class="font-thin">Carga Máxima: 160 KG</p>
+							<p class="font-thin">Velocidad Máxima: 130 KM/H</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: 20 KM/L
+							</p>
+							<p class="font-thin">
+								Tipo de motor: MONOCILINDRO, 4 TIEMPOS, ENFRIADO
+								POR AIRE
+							</p>
+							<p class="font-thin">
+								Transmisión: ESTANDAR 6 VELOCIDADES
+							</p>
+							<p class="font-thin">Potencia máxima: 15 HP</p>
+							<p class="font-thin">Cilindraje real: 250 CC</p>
+							<p class="font-thin">Arranque: ELÉCTRICO</p>
+							<p class="font-thin">Ignición: C.D.I</p>
+							<p class="font-thin">
+								Suspensión delantera: HORQUILLA TELESCÓPICA
+								HIDRÁULICA
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: AMORTIGUADOR TRASERO CENTRAL
+							</p>
+							<p class="font-thin">
+								Freno delantero: DOBLE DISCO VENTILADO
+							</p>
+							<p class="font-thin">
+								Freno trasero: DISCO VENTILADO
+							</p>
+							<p class="font-thin">Llanta delantera: 110/70-17</p>
+							<p class="font-thin">Llanta trasera: 150/70-17</p>
+							<p class="font-thin">
+								Capacidad de combustible: 16 LTS.
+							</p>
+							<p class="font-thin pb-3">
+								Embrague: MULTIDISCO BAÑADO EN ACEITE
+							</p>
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										56, 595 <span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={r4.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								Speed Fire SPDF 250
+							</h3>
+							<p>Deportiva</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2024</p>
+							<p class="font-thin">Largo total: 2050 MM</p>
+							<p class="font-thin">Ancho total: 780 MM</p>
+							<p class="font-thin">Altura total: 1060 MM</p>
+							<p class="font-thin">Distancia Ejes: 1043 MM</p>
+							<p class="font-thin">Carga Máxima: 150 KG</p>
+							<p class="font-thin">Velocidad Máxima: 125 KM./H</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: 28 K/LTS.
+							</p>
+							<p class="font-thin">
+								Tipo de motor: CUATRO TIEMPOS ENFRIADO POR
+								ACEITE 1 CILINDRO 2 VALVULAS
+							</p>
+							<p class="font-thin">
+								Transmisión: STD 6 VELOCIDADES
+							</p>
+							<p class="font-thin">Potencia máxima: 16 HP</p>
+							<p class="font-thin">Cilindraje real: 250 CC.</p>
+							<p class="font-thin">Arranque: ELÉCTRICO</p>
+							<p class="font-thin">Ignición: CDI</p>
+							<p class="font-thin">
+								Suspensión delantera: TELESCÓPICA INVERTIDA
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: MONOSHOCK
+							</p>
+							<p class="font-thin">
+								Freno delantero: DOBLE DISCO VENTILADO
+							</p>
+							<p class="font-thin">
+								Freno trasero: DISCO VENTILADO
+							</p>
+							<p class="font-thin">Llanta delantera: 110/70-17</p>
+							<p class="font-thin">Llanta trasera: 140/70-17</p>
+							<p class="font-thin">
+								Capacidad de combustible: 15 LTS.
+							</p>
+							<p class="font-thin pb-3">
+								Embrague: MULTIDISCO BAÑADO EN ACEITE
+							</p>
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										50, 295<span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={speedfire2.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								Sport R1
+							</h3>
+							<p>Deportiva</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2024</p>
+							<p class="font-thin">Largo total: 1960 MM</p>
+							<p class="font-thin">Ancho total: 710 MM</p>
+							<p class="font-thin">Altura total: 1075 MM</p>
+							<p class="font-thin">Distancia Ejes: 1350 MM</p>
+							<p class="font-thin">Carga Máxima: 150 KG</p>
+							<p class="font-thin">Velocidad Máxima: 120 KM/H</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: 20 KM/L
+							</p>
+							<p class="font-thin">
+								Tipo de motor: 4 TIEMPOS, ENFRIADO POR AIRE, CON
+								BALANCEADOR
+							</p>
+							<p class="font-thin">
+								Transmisión: 6 VELOCIDADES CONSTANTES
+							</p>
+							<p class="font-thin">Potencia máxima: 16.7 HP</p>
+							<p class="font-thin">Cilindraje real: 250 C.C.</p>
+							<p class="font-thin">Arranque: ELÉCTRICO</p>
+							<p class="font-thin">Ignición: CDI</p>
+							<p class="font-thin">
+								Suspensión delantera: HORQUILLA TELESCÓPICA
+								INVERTIDA
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: HORQUILLA BASCULANTE
+							</p>
+							<p class="font-thin">
+								Freno delantero: DOBLE DISCO
+							</p>
+							<p class="font-thin">Freno trasero: DISCO</p>
+							<p class="font-thin">Llanta delantera: 100/70-17</p>
+							<p class="font-thin">Llanta trasera: 140/70-17</p>
+							<p class="font-thin">
+								Capacidad de combustible: 16 L
+							</p>
+							<p class="font-thin pb-3">
+								Embrague: MULTIDISCO BAÑADO EN ACEITE
+							</p>
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										50, 295<span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={r1.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								Sport R2
+							</h3>
+							<p>Deportiva</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2024</p>
+							<p class="font-thin">Largo total: 205 CM</p>
+							<p class="font-thin">Ancho total: 76 CM</p>
+							<p class="font-thin">Altura total: 81 CM</p>
+							<p class="font-thin">Distancia Ejes: 137 CM</p>
+							<p class="font-thin">Carga Máxima: 124 KG</p>
+							<p class="font-thin">Velocidad Máxima: 120 KM/H</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: 27.16 KM/L
+							</p>
+							<p class="font-thin">
+								Tipo de motor: 4 TIEMPOS 2 VAL. SOHC
+							</p>
+							<p class="font-thin">
+								Transmisión: 6 VELOCIDADES, (TIPO RETORNO)
+							</p>
+							<p class="font-thin">Potencia máxima: 15 HP</p>
+							<p class="font-thin">Cilindraje real: 224.3 C.C.</p>
+							<p class="font-thin">Arranque: ELÉCTRICO</p>
+							<p class="font-thin">Ignición: CDI</p>
+							<p class="font-thin">
+								Suspensión delantera: HORQUILLA TELESCÓPICA
+								INVERTIDA
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: HORQUILLA DE ALUMINIO
+								BASCULANTE
+							</p>
+							<p class="font-thin">Freno delantero: DISCO</p>
+							<p class="font-thin">Freno trasero: DISCO</p>
+							<p class="font-thin">Llanta delantera: 110/70-17</p>
+							<p class="font-thin">Llanta trasera: 140/70-17</p>
+							<p class="font-thin">
+								Capacidad de combustible: 14 LITROS
+							</p>
+							<p class="font-thin pb-3">
+								Embrague: MULTIDISCO BAÑADO EN ACEITE
+							</p>
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										41, 895<span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={r2.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								Super Sport 400
+							</h3>
+							<p>Deportiva</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2024</p>
+							<p class="font-thin">Largo total: 2020 MM</p>
+							<p class="font-thin">Ancho total: 715 MM</p>
+							<p class="font-thin">Altura total: 1110 MM</p>
+							<p class="font-thin">Distancia Ejes: 1420 MM</p>
+							<p class="font-thin">Carga Máxima: 160 KG</p>
+							<p class="font-thin">Velocidad Máxima: 135 KM/H</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: 15 KM/LT
+							</p>
+							<p class="font-thin">
+								Tipo de motor: BICILINDRO, 4 TIEMPOS, ENFRIADO
+								POR LIQUIDO REFRIGERANTE.
+							</p>
+							<p class="font-thin">
+								Transmisión: 6 VELOCIDADES CONSTANTES
+							</p>
+							<p class="font-thin">Potencia máxima: 34.20 HP</p>
+							<p class="font-thin">Cilindraje real: 400 CC</p>
+							<p class="font-thin">Arranque: ELÉCTRICO</p>
+							<p class="font-thin">Ignición: C.D.I.</p>
+							<p class="font-thin">
+								Suspensión delantera: HORQUILLA TELESCÓPICA
+								HIDRÁULICA
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: AMORTIGUADOR TRASERO CENTRAL
+							</p>
+							<p class="font-thin">
+								Freno delantero: DOBLE DISCO VENTILADO
+							</p>
+							<p class="font-thin">
+								Freno trasero: DISCO VENTILADO
+							</p>
+							<p class="font-thin">Llanta delantera: 110/70-17</p>
+							<p class="font-thin">Llanta trasera: 150/70-17</p>
+							<p class="font-thin">
+								Capacidad de combustible: 17 LTS.
+							</p>
+							<p class="font-thin pb-3">
+								Embrague: MULTIDISCO BAÑADO EN ACEITE
+							</p>
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										72, 345<span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={supersport.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<!--motocarros -->
+				<div
+					id="motocarros"
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								Heavy Cab R-M 200
+							</h3>
+							<p>Motocarro</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2024</p>
+							<p class="font-thin">Largo total: 3810 MM</p>
+							<p class="font-thin">Ancho total: 1430 MM</p>
+							<p class="font-thin">Altura total: 1940 MM</p>
+							<p class="font-thin">Distancia Ejes: 2420 MM</p>
+							<p class="font-thin">Carga Máxima: 450 KG</p>
+							<p class="font-thin">Velocidad Máxima: 60 KM/H</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: 20 KM/L
+							</p>
+							<p class="font-thin">
+								Tipo de motor: MONOCILINDRO, 4 TIEMPOS, ENFRIADO
+								POR AIRE
+							</p>
+							<p class="font-thin">
+								Transmisión: ESTÁNDAR DE 5 VELOCIDADES CON
+								REVERSA
+							</p>
+							<p class="font-thin">Potencia máxima: 13 HP</p>
+							<p class="font-thin">Cilindraje real: 200 C.C.</p>
+							<p class="font-thin">Arranque: ELÉCTRICO Y PEDAL</p>
+							<p class="font-thin">Ignición: C.D.I.</p>
+							<p class="font-thin">
+								Suspensión delantera: HORQUILLA TELESCÓPICA
+								HIDRÁULICA
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: MUELLES DOBLE AMORTIGUADOR
+								HIDRÁULICO
+							</p>
+							<p class="font-thin">Freno delantero: TAMBOR</p>
+							<p class="font-thin">Freno trasero: TAMBOR</p>
+							<p class="font-thin">Llanta delantera: 500-12</p>
+							<p class="font-thin">Llanta trasera: 500-12</p>
+							<p class="font-thin">
+								Capacidad de combustible: 20 LTS
+							</p>
+							<p class="font-thin pb-3">
+								Embrague: MULTIDISCO BAÑADO EN ACEITE
+							</p>
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										73, 395<span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={motocarro200.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								Heavy Cap 300 m
+							</h3>
+							<p>Motocarro</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2024</p>
+							<p class="font-thin">Largo total: 4400 MM</p>
+							<p class="font-thin">Ancho total: 1530 MM</p>
+							<p class="font-thin">Altura total: 2050 MM</p>
+							<p class="font-thin">Distancia Ejes: 2670 MM</p>
+							<p class="font-thin">Carga Máxima: 750 KG</p>
+							<p class="font-thin">Velocidad Máxima: 55 KM./H</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: 14 K/LTS.
+							</p>
+							<p class="font-thin">
+								Tipo de motor: CUATRO TIEMPOS ENFRIADO POR
+								LIQUIDO ANTICONGELANTE
+							</p>
+							<p class="font-thin">
+								Transmisión: STD 5 VELOCIDADES CON REVERSA
+							</p>
+							<p class="font-thin">Potencia máxima: 17.4 HP</p>
+							<p class="font-thin">Cilindraje real: 300 CC.</p>
+							<p class="font-thin">Arranque: ELECTRICO Y PEDAL</p>
+							<p class="font-thin">Ignición: CDI</p>
+							<p class="font-thin">
+								Suspensión delantera: HORQUILLA TELESCOPICA
+								HIDRAULICA
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: MUELLES DOBLE AMORTIGUADOR
+								HIDRAULICO
+							</p>
+							<p class="font-thin">Freno delantero: TAMBOR</p>
+							<p class="font-thin">Freno Trasero: TAMBOR</p>
+							<p class="font-thin">Llanta delantera: 5.50-13</p>
+							<p class="font-thin">Llanta trasera: 5.50-13</p>
+							<p class="font-thin">
+								Capacidad de combustible: 20 LTS.
+							</p>
+							<p class="font-thin pb-3">
+								Embrague: MULTIDISCO BAÑADO EN ACEITE
+							</p>
+
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										94, 395<span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={motocarro300.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								Heavy-B 150
+							</h3>
+							<p>Motocarro</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2024</p>
+							<p class="font-thin">Largo total: 3200 MM</p>
+							<p class="font-thin">Ancho total: 1300 MM</p>
+							<p class="font-thin">Altura total: 1450 MM</p>
+							<p class="font-thin">Distancia Ejes: 2200 MM</p>
+							<p class="font-thin">Carga Máxima: 300 KG</p>
+							<p class="font-thin">Velocidad Máxima: 55 KM./H</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: 16 K/LTS.
+							</p>
+							<p class="font-thin">
+								Tipo de motor: CUATRO TIEMPOS ENFRIADO POR AIRE
+								1 CILINDRO 2 VALVULAS
+							</p>
+							<p class="font-thin">
+								Transmisión: STANDAR 5 VELOCIDADES
+							</p>
+							<p class="font-thin">Potencia máxima: 10.5HP</p>
+							<p class="font-thin">Cilindraje real: 150CC.</p>
+							<p class="font-thin">Arranque: ELECTRICO Y PEDAL</p>
+							<p class="font-thin">Ignición: CDI</p>
+							<p class="font-thin">
+								Suspensión delantera: HOQUILLA TELESCOPICA
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: MUELLES Y AMORTIGUADORES
+								HIDRAULICOS
+							</p>
+							<p class="font-thin">Freno delantero: TAMBOR</p>
+							<p class="font-thin">Freno Trasero: TAMBOR</p>
+							<p class="font-thin">Llanta delantera: 450-12</p>
+							<p class="font-thin">Llanta trasera: 450-12</p>
+							<p class="font-thin">
+								Capacidad de combustible: 19 LTS.
+							</p>
+							<p class="font-thin pb-3">
+								Embrague: MULTI DISCO BAÑADO EN ACEITE
+							</p>
+
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										56, 595<span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={motocarrob.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								Super Heavy Cab 250
+							</h3>
+							<p>Motocarro</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2024</p>
+							<p class="font-thin">Largo total: 4400MM</p>
+							<p class="font-thin">Ancho total: 1580MM</p>
+							<p class="font-thin">Altura total: 2050MM</p>
+							<p class="font-thin">Distancia Ejes: 2700MM</p>
+							<p class="font-thin">Carga Máxima: 700KG</p>
+							<p class="font-thin">Velocidad Máxima: 65KM/H</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: 21 KM/L
+							</p>
+							<p class="font-thin">
+								Tipo de motor: 4 TIEMPOS OHV, 1 CILINDRO
+								ENFRIADO POR AGUA
+							</p>
+							<p class="font-thin">
+								Transmisión: 5 VELOCIDADES CONSTANTES
+							</p>
+							<p class="font-thin">Potencia máxima: 14 HP</p>
+							<p class="font-thin">Cilindraje real: 250 C.C.</p>
+							<p class="font-thin">Arranque: ELÉCTRICO Y PEDAL</p>
+							<p class="font-thin">Ignición: CDI</p>
+							<p class="font-thin">
+								Suspensión delantera: HORQUILLA TELESCÓPICA
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: MUELLES TRASEROS Y DOBLE
+								AMORTIGUADOR HIDRÁULICO
+							</p>
+							<p class="font-thin">Freno delantero: TAMBOR</p>
+							<p class="font-thin">Freno Trasero: TAMBOR</p>
+							<p class="font-thin">Llanta delantera: 550-13</p>
+							<p class="font-thin">Llanta trasera: 550-13</p>
+							<p class="font-thin">
+								Capacidad de combustible: 14 L
+							</p>
+							<p class="font-thin pb-3">
+								Embrague: MULTIDISCO BAÑADO EN ACEITE
+							</p>
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										87, 045<span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={motocarrosuper.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<!--clasicas -->
+				<div
+					id="clasicas"
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								KF-Racer 250
+							</h3>
+							<p>Clásica</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2023</p>
+							<p class="font-thin">Largo total: 2000 MM</p>
+							<p class="font-thin">Ancho total: 860 MM</p>
+							<p class="font-thin">Altura total: 1170 MM</p>
+							<p class="font-thin">Distancia Ejes: 1400 MM</p>
+							<p class="font-thin">Carga Máxima: 150 KG</p>
+							<p class="font-thin">Velocidad Máxima: 135 KM./H</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: 22 K/LTS.
+							</p>
+							<p class="font-thin">
+								Tipo de motor: CUATRO TIEMPOS ENFRIADO POR AIRE
+								2 PISTONES 4 VALVULAS
+							</p>
+							<p class="font-thin">
+								Transmisión: STD 6 VELOCIDADES
+							</p>
+							<p class="font-thin">Potencia máxima: 16 HP</p>
+							<p class="font-thin">Cilindraje real: 250CC.</p>
+							<p class="font-thin">Arranque: ELÉCTRICO</p>
+							<p class="font-thin">Ignición: CDI</p>
+							<p class="font-thin">
+								Suspensión delantera: HORQUILLA TELESCÓPICA
+								HIDRÁULICA
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: DOBLE AMORTIGUADOR
+								HIDRÁULICO
+							</p>
+							<p class="font-thin">
+								Freno delantero: DISCO VENTILADO
+							</p>
+							<p class="font-thin">
+								Freno Trasero: DISCO VENTILADO
+							</p>
+							<p class="font-thin">Llanta delantera: 110/70-17</p>
+							<p class="font-thin">Llanta trasera: 130/70-17</p>
+							<p class="font-thin">
+								Capacidad de combustible: 13 LTS.
+							</p>
+							<p class="font-thin pb-3">
+								Embrague: MULTIDISCO BAÑADO EN ACEITE
+							</p>
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										41, 895<span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={kfracer.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								Custom 150
+							</h3>
+							<p>Clásica</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2024</p>
+							<p class="font-thin">Largo total: 217 CM</p>
+							<p class="font-thin">Ancho total: 81 CM</p>
+							<p class="font-thin">Altura total: 109 CM</p>
+							<p class="font-thin">Distancia Ejes: 145 CM</p>
+							<p class="font-thin">Carga Máxima: 150 KG</p>
+							<p class="font-thin">Velocidad Máxima: 90 KM/H</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: 35 KM/L
+							</p>
+							<p class="font-thin">
+								Tipo de motor: MONOCILINDRO DE 4 TIEMPOS
+								ENFRIADO POR AIRE
+							</p>
+							<p class="font-thin">
+								Transmisión: ESTÁNDAR 5 VELOCIDADES
+							</p>
+							<p class="font-thin">Potencia máxima: 10.5 H.P.</p>
+							<p class="font-thin">Cilindraje real: 150 C.C.</p>
+							<p class="font-thin">Arranque: ELÉCTRICO Y PEDAL</p>
+							<p class="font-thin">Ignición: C.D.I</p>
+							<p class="font-thin">
+								Suspensión delantera: EXTENSIÓN TUBULAR
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: DOBLE AMORTIGUADOR
+								HIDRÁULICO
+							</p>
+							<p class="font-thin">Freno delantero: DISCO</p>
+							<p class="font-thin">Freno Trasero: TAMBOR</p>
+							<p class="font-thin">Llanta delantera: 110/90-16</p>
+							<p class="font-thin">Llanta trasera: 130/90-15</p>
+							<p class="font-thin">
+								Capacidad de combustible: 10.2 LITROS
+							</p>
+							<p class="font-thin pb-3">
+								Embrague: MANUAL POR CABLE
+							</p>
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										36, 645<span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={custom150.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								Custom Black
+							</h3>
+							<p>Clásica</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2024</p>
+							<p class="font-thin">Largo total: 2200 MM</p>
+							<p class="font-thin">Ancho total: 800 MM</p>
+							<p class="font-thin">Altura total: 1350 MM</p>
+							<p class="font-thin">Distancia Ejes: 1500 MM</p>
+							<p class="font-thin">Carga Máxima: 150KG</p>
+							<p class="font-thin">Velocidad Máxima: 100 KM/H</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: 32 KM/L
+							</p>
+							<p class="font-thin">
+								Tipo de motor: CUATRO TIEMPOS ENFRIADO POR AIRE
+								1 CILINDRO 2 VALVULAS
+							</p>
+							<p class="font-thin">
+								Transmisión: STD 5 VELOCIDADES
+							</p>
+							<p class="font-thin">Potencia máxima: 10.5 HP</p>
+							<p class="font-thin">Cilindraje real: 150 C.C.</p>
+							<p class="font-thin">Arranque: ELECTRICO Y PEDAL</p>
+							<p class="font-thin">Ignición: CDI</p>
+							<p class="font-thin">
+								Suspensión delantera: HORQUILLA TELESCÓPICA
+								HIDRÁULICA
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: DOBLE AMORTIGUADOR
+								HIDRÁULICO
+							</p>
+							<p class="font-thin">Freno delantero: DISCO</p>
+							<p class="font-thin">Freno Trasero: DISCO</p>
+							<p class="font-thin">Llanta delantera: 100/90-16</p>
+							<p class="font-thin">Llanta trasera: 120/90-15</p>
+							<p class="font-thin">
+								Capacidad de combustible: 12 LTS
+							</p>
+							<p class="font-thin pb-3">
+								Embrague: MULTIDISCO BAÑADO EN ACEITE
+							</p>
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										39, 795<span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={customblack.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								Rayo 175
+							</h3>
+							<p>Clásica</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2024</p>
+							<p class="font-thin">Largo total: 213 CM</p>
+							<p class="font-thin">Ancho total: 74 CM</p>
+							<p class="font-thin">Altura total: 107 CM</p>
+							<p class="font-thin">Distancia Ejes: 150 CM</p>
+							<p class="font-thin">Carga Máxima: 150 KG</p>
+							<p class="font-thin">Velocidad Máxima: 90 KM/H</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: 35 KM/L
+							</p>
+							<p class="font-thin">
+								Tipo de motor: MONOCILINDRO 4 TIEMPOS ENFRIADO
+								POR AIRE
+							</p>
+							<p class="font-thin">
+								Transmisión: ESTÁNDAR 5 VELOCIDADES
+							</p>
+							<p class="font-thin">Potencia máxima: 10.5 HP</p>
+							<p class="font-thin">Cilindraje real: 175 C.C.</p>
+							<p class="font-thin">Arranque: ELÉCTRICO/PEDAL</p>
+							<p class="font-thin">Ignición: C.D.I</p>
+							<p class="font-thin">
+								Suspensión delantera: HORQUILLA TELESCÓPICA
+								HIDRÁULICA
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: DOBLE AMORTIGUADOR
+								HIDRÁULICO
+							</p>
+							<p class="font-thin">
+								Freno delantero: DISCO VENTILADO
+							</p>
+							<p class="font-thin">Freno Trasero: TAMBOR</p>
+							<p class="font-thin">Llanta delantera: 350/16</p>
+							<p class="font-thin">Llanta trasera: 130/90-15</p>
+							<p class="font-thin">
+								Capacidad de combustible: 10 LITROS
+							</p>
+							<p class="font-thin pb-3">
+								Embrague: MULTIDISCOS BAÑADO EN ACEITE
+							</p>
+
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										40, 845<span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={custom175.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								Rayo Elite
+							</h3>
+							<p>Clásica</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2024</p>
+							<p class="font-thin">Largo total: 214 CM</p>
+							<p class="font-thin">Ancho total: 89 CM</p>
+							<p class="font-thin">Altura total: 116 CM</p>
+							<p class="font-thin">Distancia Ejes: 150 CM</p>
+							<p class="font-thin">Carga Máxima: 150 KG</p>
+							<p class="font-thin">Velocidad Máxima: 90 KM</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: 24 KM/LT
+							</p>
+							<p class="font-thin">
+								Tipo de motor: MONOCILINDRO DE 4 TIEMPOS
+								ENFRIADO POR AIRE
+							</p>
+							<p class="font-thin">
+								Transmisión: ESTÁNDAR DE 5 VELOCIDADES
+							</p>
+							<p class="font-thin">Potencia máxima: 16.5 H.P</p>
+							<p class="font-thin">Cilindraje real: 250 C.C.</p>
+							<p class="font-thin">Arranque: ELÉCTRICO Y PEDAL</p>
+							<p class="font-thin">Ignición: C.D.I</p>
+							<p class="font-thin">
+								Suspensión delantera: HORQUILLA TELESCÓPICA
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: DOBLE AMORTIGUADOR
+								HIDRÁULICO
+							</p>
+							<p class="font-thin">
+								Freno delantero: DISCO VENTILADO
+							</p>
+							<p class="font-thin">Freno Trasero: TAMBOR</p>
+							<p class="font-thin">Llanta delantera: 350/16</p>
+							<p class="font-thin">Llanta trasera: 130/90-15</p>
+							<p class="font-thin">
+								Capacidad de combustible: 10 LITROS
+							</p>
+							<p class="font-thin pb-3">
+								Embrague: MULTIDISCO BAÑADO POR ACEITE
+							</p>
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										47, 145<span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={rayoelite.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								Renegada
+							</h3>
+							<p>Clásica</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2024</p>
+							<p class="font-thin">Largo total: 220 CM</p>
+							<p class="font-thin">Ancho total: 110 CM</p>
+							<p class="font-thin">Altura total: 140 CM</p>
+							<p class="font-thin">Distancia Ejes: 148.1 CM</p>
+							<p class="font-thin">Carga Máxima: 150 KG</p>
+							<p class="font-thin">Velocidad Máxima: 125 KM/H</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: 24 KM/LT
+							</p>
+							<p class="font-thin">
+								Tipo de motor: 4 TIEMPOS 2 VAL. SOHC ENFRIADO
+								POR AIRE
+							</p>
+							<p class="font-thin">
+								Transmisión: ESTÁNDAR 6 VELOCIDADES, (TIPO
+								RETORNO)
+							</p>
+							<p class="font-thin">Potencia máxima: 16.7 H.P</p>
+							<p class="font-thin">Cilindraje real: 250 C.C</p>
+							<p class="font-thin">Arranque: ELÉCTRICO</p>
+							<p class="font-thin">Ignición: C.D.I.</p>
+							<p class="font-thin">
+								Suspensión delantera: HORQUILLA TELESCÓPICA
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: AMORTIGUADORES HIDRÁULICO
+							</p>
+							<p class="font-thin">Freno delantero: DISCO</p>
+							<p class="font-thin">Freno Trasero: TAMBOR</p>
+							<p class="font-thin">Llanta delantera: 110/90-16</p>
+							<p class="font-thin">Llanta trasera: 130/90-15</p>
+							<p class="font-thin">
+								Capacidad de combustible: 15 LITROS
+							</p>
+							<p class="font-thin pb-3">
+								Embrague: CENTRÍFUGO DE MULTIDISCO
+							</p>
+
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										46, 095<span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={renegada.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<!--Motoneta-->
+				<div
+					id="motonetas"
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								Adventure Elite
+							</h3>
+							<p>Motoneta</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2024</p>
+							<p class="font-thin">Largo total: 1960MM.</p>
+							<p class="font-thin">Ancho total: 660MM.</p>
+							<p class="font-thin">Altura total: 1123MM.</p>
+							<p class="font-thin">Distancia Ejes: 1370MM.</p>
+							<p class="font-thin">Carga Máxima: 160 KG</p>
+							<p class="font-thin">Velocidad Máxima: 80 KM./H</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: 35 KM./LT.
+							</p>
+							<p class="font-thin">
+								Tipo de motor: MONOCILINDRO, 4 TIEMPOS, ENFRIADO
+								POR AIRE
+							</p>
+							<p class="font-thin">Transmisión: AUTOMATICA</p>
+							<p class="font-thin">Potencia máxima: 8.5 HP</p>
+							<p class="font-thin">Cilindraje real: 150CC.</p>
+							<p class="font-thin">Arranque: ELECTRICO Y PEDAL</p>
+							<p class="font-thin">Ignición: C.D.I.</p>
+							<p class="font-thin">
+								Suspensión delantera: HORQUILLA TELESCOPICA
+								HIDRAULICA
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: DOBLE AMORTIGUADOR
+								HIDRAULICO
+							</p>
+							<p class="font-thin">Freno delantero: DISCO</p>
+							<p class="font-thin">Freno Trasero: TAMBOR</p>
+							<p class="font-thin">
+								Llanta delantera: 130 / 60 -13
+							</p>
+							<p class="font-thin">
+								Llanta trasera: 130 / 60 -13
+							</p>
+							<p class="font-thin">
+								Capacidad de combustible: 4.5 LTS.
+							</p>
+							<p class="font-thin pb-3">Embrague: CENTRIFUGO</p>
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										31, 395<span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={adventureelite.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								Alien-R
+							</h3>
+							<p>Motoneta</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2024</p>
+							<p class="font-thin">Largo total: 192 CM</p>
+							<p class="font-thin">Ancho total: 80 CM</p>
+							<p class="font-thin">Altura total: 80.5 CM</p>
+							<p class="font-thin">Distancia Ejes: 145 CM</p>
+							<p class="font-thin">Carga Máxima: 150 KG</p>
+							<p class="font-thin">Velocidad Máxima: 76 KM/H</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: 35.7 KM/L
+							</p>
+							<p class="font-thin">
+								Tipo de motor: MONOCILINDRO 4 TIEMPOS 1 CILINDRO
+							</p>
+							<p class="font-thin">Transmisión: AUTOMÁTICO</p>
+							<p class="font-thin">Potencia máxima: 8.5 H.P</p>
+							<p class="font-thin">Cilindraje real: 149.5 CC</p>
+							<p class="font-thin">Arranque: ELÉCTRICO Y PEDAL</p>
+							<p class="font-thin">Ignición: C.D.I</p>
+							<p class="font-thin">
+								Suspensión delantera: HORQUILLA TELESCÓPICA
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: DOBLE AMORTIGUADOR
+							</p>
+							<p class="font-thin">Freno delantero: DISCO</p>
+							<p class="font-thin">Freno Trasero: TAMBOR</p>
+							<p class="font-thin">Llanta delantera: 120/70-12</p>
+							<p class="font-thin">Llanta trasera: 120/70-12</p>
+							<p class="font-thin">
+								Capacidad de combustible: 5.5 LITROS
+							</p>
+							<p class="font-thin pb-3">
+								Embrague: CENTRÍFUGO TIPO BANDA EN V
+							</p>
+
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										31, 395<span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={alienr.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								Metro
+							</h3>
+							<p>Motoneta</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2024</p>
+							<p class="font-thin">Largo total: 1860 mm</p>
+							<p class="font-thin">Ancho total: 700 mm</p>
+							<p class="font-thin">Altura total: 1080 mm</p>
+							<p class="font-thin">
+								Distancia entre ejes: 1240 mm
+							</p>
+							<p class="font-thin">Carga máxima: 130 kg</p>
+							<p class="font-thin">Velocidad máxima: 85 km/h</p>
+							<p class="font-thin">
+								Rendimiento de combustible: 35 km/l
+							</p>
+							<p class="font-thin">
+								Tipo de motor: 4 tiempos, enfriado por aire
+							</p>
+							<p class="font-thin">
+								Transmisión: Semiautomática 4 velocidades
+								constantes
+							</p>
+							<p class="font-thin">Potencia máxima: 6.4 HP</p>
+							<p class="font-thin">Cilindrada real: 120 cc</p>
+							<p class="font-thin">Arranque: Eléctrico/pedal</p>
+							<p class="font-thin">Ignición: CDI</p>
+							<p class="font-thin">
+								Suspensión delantera: Horquilla telescópica
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: Doble amortiguador
+								hidráulico
+							</p>
+							<p class="font-thin">
+								Freno delantero: Disco ventilado
+							</p>
+							<p class="font-thin">Freno trasero: Tambor</p>
+							<p class="font-thin">Llanta delantera: 110/90-13</p>
+							<p class="font-thin">Llanta trasera: 110/90-13</p>
+							<p class="font-thin">
+								Capacidad de combustible: 3.0 L
+							</p>
+							<p class="font-thin pb-3">
+								Embrague: Centrífugo, semiautomático multidiscos
+							</p>
+
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										28, 245<span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={metro.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<!--Racers-->
+				<div
+				id="racers"
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								Molotov
+							</h3>
+							<p>Racers</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2024</p>
+							<p class="font-thin">Largo total: 2360 MM.</p>
+							<p class="font-thin">Ancho total: 1400 MM.</p>
+							<p class="font-thin">Altura total: 1460 MM.</p>
+							<p class="font-thin">Distancia Ejes: 1560 MM.</p>
+							<p class="font-thin">Carga Máxima: 160 KG.</p>
+							<p class="font-thin">Velocidad Máxima: 65 KM./H</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: 20 KM./LT.
+							</p>
+							<p class="font-thin">
+								Tipo de motor: MONOCILINDRO, 4 TIEMPOS, ENFRIADO
+								POR AIRE Y RADIADOR DE ACEITE
+							</p>
+							<p class="font-thin">
+								Transmisión: AUTOMATICA CON REVERSA
+							</p>
+							<p class="font-thin">Potencia máxima: 9.1 HP</p>
+							<p class="font-thin">Cilindraje real: 200 CC</p>
+							<p class="font-thin">Arranque: ELECTRICO</p>
+							<p class="font-thin">Ignición: C.D.I.</p>
+							<p class="font-thin">
+								Suspensión delantera: DOBLE AMORTIGUADOR
+								HIDRAULICO
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: DOBLE AMORTIGUADOR
+								HIDRAULICO
+							</p>
+							<p class="font-thin">Freno delantero: DISCO</p>
+							<p class="font-thin">Freno Trasero: DISCO</p>
+							<p class="font-thin">Llanta delantera: 21 X 7-10</p>
+							<p class="font-thin">Llanta trasera: 22 X 11-10</p>
+							<p class="font-thin">
+								Capacidad de combustible: 6 LTS.
+							</p>
+							<p class="font-thin pb-3">Embrague: CENTRIFUGO</p>
+
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										76, 545<span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={molotov.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								Molotov C4
+							</h3>
+							<p>Racers</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2023</p>
+							<p class="font-thin">Largo total: 3100 MM</p>
+							<p class="font-thin">Ancho total: 1750 MM</p>
+							<p class="font-thin">Altura total: 1800 MM</p>
+							<p class="font-thin">Distancia Ejes: 2500 MM</p>
+							<p class="font-thin">Carga Máxima: 280 KG</p>
+							<p class="font-thin">Velocidad Máxima: 60 KM./H</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: 15 K/LTS.
+							</p>
+							<p class="font-thin">
+								Tipo de motor: CUATRO TIEMPOS ENFRIADO POR AIRE
+								Y 1 CILINDRO 2 VALVULAS
+							</p>
+							<p class="font-thin">
+								Transmisión: AUTOMATICA CON REVERSA
+							</p>
+							<p class="font-thin">Potencia máxima: 9.65HP</p>
+							<p class="font-thin">Cilindraje real: 200CC.</p>
+							<p class="font-thin">Arranque: ELÉCTRICO</p>
+							<p class="font-thin">Ignición: CDI</p>
+							<p class="font-thin">
+								Suspensión delantera: AMORTIGUADORES HIDRAULICOS
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: AMORTIGUADORES HIDRAULICOS
+							</p>
+							<p class="font-thin">
+								Freno delantero: DISCOS VENTILADO
+							</p>
+							<p class="font-thin">
+								Freno Trasero: DISCOS VENTILADO
+							</p>
+							<p class="font-thin">Llanta delantera: 23-07/10</p>
+							<p class="font-thin">Llanta trasera: 22-10/10</p>
+							<p class="font-thin">
+								Capacidad de combustible: 15 LTS.
+							</p>
+							<p class="font-thin pb-3">Embrague: CENTRIFUGO</p>
+
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										87, 045<span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={molotovc4.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<!--Doble proposito-->
+				<div
+				id="dobleproposito"
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								Scorpion 200
+							</h3>
+							<p>Doble propósito</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2024</p>
+							<p class="font-thin">Largo total: 2050 MM</p>
+							<p class="font-thin">Ancho total: 800 MM</p>
+							<p class="font-thin">Altura total: 1400 MM</p>
+							<p class="font-thin">Distancia Ejes: 1320 MM</p>
+							<p class="font-thin">Carga Máxima: 150 KG</p>
+							<p class="font-thin">Velocidad Máxima: 95 KM/H</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: 25 KM/LT
+							</p>
+							<p class="font-thin">
+								Tipo de motor: MONOCILINDRO, 4 TIEMPOS, ENFRIADO
+								POR AIRE
+							</p>
+							<p class="font-thin">
+								Transmisión: ESTÁNDAR 5 VELOCIDADES
+							</p>
+							<p class="font-thin">Potencia máxima: 13 HP</p>
+							<p class="font-thin">Cilindraje real: 200 CC</p>
+							<p class="font-thin">Arranque: ELÉCTRICO Y PEDAL</p>
+							<p class="font-thin">Ignición: C.D.I.</p>
+							<p class="font-thin">
+								Suspensión delantera: HORQUILLA TELESCÓPICA
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: AMORTIGUADOR CENTRAL
+							</p>
+							<p class="font-thin">
+								Freno delantero: DISCO VENTILADO
+							</p>
+							<p class="font-thin">Freno Trasero: TAMBOR</p>
+							<p class="font-thin">Llanta delantera: 90/90-19</p>
+							<p class="font-thin">Llanta trasera: 110/90-17</p>
+							<p class="font-thin">
+								Capacidad de combustible: 12 LTS
+							</p>
+							<p class="font-thin pb-3">
+								Embrague: MULTIDISCO BAÑADO EN ACEITE
+							</p>
+
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										35, 595<span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={scorpion200.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								Scorpion 250
+							</h3>
+							<p>Doble propósito</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2024</p>
+							<p class="font-thin">Largo total: 222 CM</p>
+							<p class="font-thin">Ancho total: 80 CM</p>
+							<p class="font-thin">Altura total: 123 CM</p>
+							<p class="font-thin">Distancia Ejes: 143 CM</p>
+							<p class="font-thin">Carga Máxima: 150 KG</p>
+							<p class="font-thin">Velocidad Máxima: 90 KM/H</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: 24 KM/L
+							</p>
+							<p class="font-thin">
+								Tipo de motor: 4 TIEMPOS, MONO CILINDRO,
+								ENFRIADO POR AIRE, POR CADENA, CON BALANCEADOR
+							</p>
+							<p class="font-thin">
+								Transmisión: ESTÁNDAR DE 5 VELOCIDADES
+							</p>
+							<p class="font-thin">
+								Potencia máxima: 16.7 HP/ 7500 RPM
+							</p>
+							<p class="font-thin">Cilindraje real: 250 C.C.</p>
+							<p class="font-thin">Arranque: ELÉCTRICO/PEDAL</p>
+							<p class="font-thin">Ignición: C.D.I.</p>
+							<p class="font-thin">
+								Suspensión delantera: HORQUILLA TELESCÓPICA
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: BRAZO OCILANTE
+							</p>
+							<p class="font-thin">
+								Freno delantero: DISCO VENTILADO
+							</p>
+							<p class="font-thin">Freno Trasero: TAMBOR</p>
+							<p class="font-thin">Llanta delantera: 300-21</p>
+							<p class="font-thin">Llanta trasera: 4.60-18</p>
+							<p class="font-thin">
+								Capacidad de combustible: 13 LITROS
+							</p>
+							<p class="font-thin pb-3">
+								Embrague: MULTIDISCO BAÑADO EN ACEITE
+							</p>
+
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										41, 895 <span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={scorpion250.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								Cross Country ADV
+							</h3>
+							<p>Doble propósito</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2024</p>
+							<p class="font-thin">Largo total: 2190 MM</p>
+							<p class="font-thin">Ancho total: 990 MM</p>
+							<p class="font-thin">Altura total: 1430 MM</p>
+							<p class="font-thin">Distancia Ejes: 1410 MM</p>
+							<p class="font-thin">Carga Máxima: 150 KG</p>
+							<p class="font-thin">Velocidad Máxima: 125 KM./H</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: 22 K/LTS.
+							</p>
+							<p class="font-thin">
+								Tipo de motor: CUATRO TIEMPOS ENFRIADO POR AIRE
+								MONOCILINDRO 2 VALVULAS
+							</p>
+							<p class="font-thin">
+								Transmisión: STD 6 VELOCIDADES
+							</p>
+							<p class="font-thin">Potencia máxima: 16 HP</p>
+							<p class="font-thin">Cilindraje real: 250CC.</p>
+							<p class="font-thin">Arranque: ELÉCTRICO</p>
+							<p class="font-thin">Ignición: CDI</p>
+							<p class="font-thin">
+								Suspensión delantera: HORQUILLA TELESCÓPICA
+								HIDRÁULICA INVERTIDA
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: UN SOLO AMORTIGUADOR
+							</p>
+							<p class="font-thin">Freno delantero: DISCO</p>
+							<p class="font-thin">Freno Trasero: DISCO</p>
+							<p class="font-thin">Llanta delantera: 110/80-19</p>
+							<p class="font-thin">Llanta trasera: 140/70-17</p>
+							<p class="font-thin">
+								Capacidad de combustible: 16 LTS.
+							</p>
+							<p class="font-thin pb-3">
+								Embrague: MULTIDISCO BAÑADO EN ACEITE
+							</p>
+
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										61, 845 <span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={couscontryadv.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<div
+					class="product flex flex-col lg:flex-row lg:justify-center lg:items-center bg-black md:bg-transparent"
+				>
+					<div
+						class="text-white lg:w-1/2 p-8 flex flex-col justify-between"
+					>
+						<div class="pb-4">
+							<h3 class="product-title text-4xl lg:text-6xl">
+								Cross Country
+							</h3>
+							<p>Doble propósito</p>
+						</div>
+
+						<div class="pt-6 lg:pt-0">
+							<p class="font-thin">Año: 2024</p>
+							<p class="font-thin">Largo total: 2190 MM</p>
+							<p class="font-thin">Ancho total: 990 MM</p>
+							<p class="font-thin">Altura total: 1430 MM</p>
+							<p class="font-thin">Distancia Ejes: 1410 MM</p>
+							<p class="font-thin">Carga Máxima: 150 KG</p>
+							<p class="font-thin">Velocidad Máxima: 125 KM./H</p>
+							<p class="font-thin">
+								Rendimiento de Combustible: 22 K/LTS.
+							</p>
+							<p class="font-thin">
+								Tipo de motor: CUATRO TIEMPOS ENFRIADO POR AIRE
+								MONOCILINDRO 2 VALVULAS
+							</p>
+							<p class="font-thin">
+								Transmisión: STD 6 VELOCIDADES
+							</p>
+							<p class="font-thin">Potencia máxima: 16 HP</p>
+							<p class="font-thin">Cilindraje real: 250CC.</p>
+							<p class="font-thin">Arranque: ELÉCTRICO</p>
+							<p class="font-thin">Ignición: CDI</p>
+							<p class="font-thin">
+								Suspensión delantera: HORQUILLA TELESCÓPICA
+								HIDRÁULICA INVERTIDA
+							</p>
+							<p class="font-thin">
+								Suspensión trasera: UN SOLO AMORTIGUADOR
+							</p>
+							<p class="font-thin">Freno delantero: DISCO</p>
+							<p class="font-thin">Freno Trasero: DISCO</p>
+							<p class="font-thin">Llanta delantera: 110/80-19</p>
+							<p class="font-thin">Llanta trasera: 140/70-17</p>
+							<p class="font-thin">
+								Capacidad de combustible: 16 LTS.
+							</p>
+							<p class="font-thin pb-3">
+								Embrague: MULTIDISCO BAÑADO EN ACEITE
+							</p>
+
+							<div
+								class="flex items-center space-x-2 opacity-50 mb-6 text-2xl"
+							>
+								<h4>Precio:</h4>
+								<div class="flex space-x-2">
+									<p class="text-white">
+										52, 395 <span>MXN</span>
+									</p>
+								</div>
+							</div>
+							<a
+								class="whatsapp-link inline-flex space-x-1 px-3 py-2 border border-white"
+								href="#"
+							>
+								<svg
+									class="w-4"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512"
+									><path
+										fill="white"
+										d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+									></path></svg
+								>
+								<div>
+									<p>Elegir Modelo</p>
+								</div></a
+							>
+						</div>
+					</div>
+					<div
+						class="overflow-x-scroll snap-x snap-mandatory lg:w-1/2 responsive"
+					>
+						<div class="flex">
+							<div class="absolute">
+								<p
+									class="text-white font-light text-sm pl-6 p-4"
+								>
+									Desliza<span class="pl-2">&rarr;</span>
+								</p>
+							</div>
+							<img
+								class="lg:object-cover h-full w-full snap-center"
+								src={couscountry.src}
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 	</body>
 </html>
+
+<script>
+	document.querySelectorAll(".whatsapp-link").forEach(function (link) {
+		link.addEventListener("click", function (event) {
+			event.preventDefault();
+
+			// Encontrar el contenedor del producto más cercano
+			const productElement = link.closest(".product");
+
+			if (productElement) {
+				// Buscar el título solo dentro del contenedor del producto específico
+				const productTitleElement = productElement.querySelector(
+					".product-title",
+				) as HTMLElement;
+
+				if (productTitleElement) {
+					const productTitle = productTitleElement.innerText;
+					const message = `Me interesa este modelo: ${productTitle}`;
+					const whatsappUrl = `https://wa.me/527711767689?text=${encodeURIComponent(message)}`;
+
+					// Redirigir a la URL de WhatsApp con el mensaje
+					window.location.href = whatsappUrl;
+				}
+			}
+		});
+	});
+</script>
